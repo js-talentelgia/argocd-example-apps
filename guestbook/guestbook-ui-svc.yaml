@@ -7,6 +7,6 @@ spec:
   ports:
   - port: 3000
     targetPort: 3000
-    nodeport: 30004
+    nodePort: 30004
   selector:
     app: guestbook-ui
